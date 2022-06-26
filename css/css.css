@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Calibri;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+input{
+    margin: 10px 0;
+    padding: 5px;
+    border: unset;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+.btnLog{
+    color: white;
+    padding: 5px;
+    background: #004b8d;
+    border: unset;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.msg{
+    background: orange;
+    border: 2px solid ;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.errorMsg{
+    font-size: 70px;
+    text-align: center;
+}
+
+table {
+    margin-top: 70px;
+    height: 50px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+button{
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.pagination{
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    color: #5b5bff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    background-color: #5782ef;
+    color: white;
+}
+.btn_add{
+    width: 100%;
+    text-decoration: none;
+    background-color: #5782ef;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    float: left;
+}
+.mb-3{
+    margin-bottom: 30px;
+}
+.btn_up{
+    font-size: 16px;
+    height: 50px;
+    width: 150px;
+    background: #5782ef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+.header{
+    font-size: 20px;
+}
+.logout{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    float: right;
+}
